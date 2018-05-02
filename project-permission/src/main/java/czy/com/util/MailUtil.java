@@ -1,6 +1,7 @@
 package czy.com.util;
 
-import com.mmall.beans.Mail;
+
+import czy.com.beans.Mail;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.mail.EmailException;

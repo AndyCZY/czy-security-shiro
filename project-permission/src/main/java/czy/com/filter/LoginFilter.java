@@ -1,7 +1,8 @@
 package czy.com.filter;
 
-import com.mmall.common.RequestHolder;
-import com.mmall.model.SysUser;
+
+import czy.com.common.RequestHolder;
+import czy.com.model.SysUser;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.*;

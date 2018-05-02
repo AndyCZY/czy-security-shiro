@@ -1,14 +1,15 @@
 package czy.com.service;
 
 import com.google.common.collect.Lists;
-import com.mmall.beans.CacheKeyConstants;
-import com.mmall.common.RequestHolder;
-import com.mmall.dao.SysAclMapper;
-import com.mmall.dao.SysRoleAclMapper;
-import com.mmall.dao.SysRoleUserMapper;
-import com.mmall.model.SysAcl;
-import com.mmall.model.SysUser;
-import com.mmall.util.JsonMapper;
+
+import czy.com.beans.CacheKeyConstants;
+import czy.com.common.RequestHolder;
+import czy.com.dao.SysAclMapper;
+import czy.com.dao.SysRoleAclMapper;
+import czy.com.dao.SysRoleUserMapper;
+import czy.com.model.SysAcl;
+import czy.com.model.SysUser;
+import czy.com.util.JsonMapper;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.codehaus.jackson.type.TypeReference;

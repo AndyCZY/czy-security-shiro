@@ -3,7 +3,7 @@ package czy.com.util;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.mmall.exception.ParamException;
+import czy.com.exception.ParamException;
 import org.apache.commons.collections.MapUtils;
 
 import javax.validation.ConstraintViolation;

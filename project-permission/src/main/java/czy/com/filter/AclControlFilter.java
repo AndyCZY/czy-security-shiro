@@ -2,12 +2,13 @@ package czy.com.filter;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Sets;
-import com.mmall.common.ApplicationContextHelper;
-import com.mmall.common.JsonData;
-import com.mmall.common.RequestHolder;
-import com.mmall.model.SysUser;
-import com.mmall.service.SysCoreService;
-import com.mmall.util.JsonMapper;
+
+import czy.com.common.ApplicationContextHelper;
+import czy.com.common.JsonData;
+import czy.com.common.RequestHolder;
+import czy.com.model.SysUser;
+import czy.com.service.SysCoreService;
+import czy.com.util.JsonMapper;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.*;

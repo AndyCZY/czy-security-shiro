@@ -1,15 +1,15 @@
 package czy.com.service;
 
 import com.google.common.base.Preconditions;
-import com.mmall.common.RequestHolder;
-import com.mmall.dao.SysAclMapper;
-import com.mmall.dao.SysAclModuleMapper;
-import com.mmall.exception.ParamException;
-import com.mmall.model.SysAclModule;
-import com.mmall.param.AclModuleParam;
-import com.mmall.util.BeanValidator;
-import com.mmall.util.IpUtil;
-import com.mmall.util.LevelUtil;
+import czy.com.common.RequestHolder;
+import czy.com.dao.SysAclMapper;
+import czy.com.dao.SysAclModuleMapper;
+import czy.com.exception.ParamException;
+import czy.com.model.SysAclModule;
+import czy.com.param.AclModuleParam;
+import czy.com.util.BeanValidator;
+import czy.com.util.IpUtil;
+import czy.com.util.LevelUtil;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

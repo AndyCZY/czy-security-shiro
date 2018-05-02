@@ -1,8 +1,9 @@
 package czy.com.service;
 
 import com.google.common.base.Joiner;
-import com.mmall.beans.CacheKeyConstants;
-import com.mmall.util.JsonMapper;
+
+import czy.com.beans.CacheKeyConstants;
+import czy.com.util.JsonMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.ShardedJedis;
